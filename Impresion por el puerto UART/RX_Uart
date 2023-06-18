@@ -1,0 +1,16 @@
+int16_t estado=0;
+//int16_t led=
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
+ if (Serial.available()){
+   estado=Serial.read();
+ }
+ if (estado=='1')
+ Serial.println("ingreso a cambio de velocidad");
+  if (estado=='2')
+ Serial.println("ingreso a cambio de  modo ");
+ estado='6';
+}

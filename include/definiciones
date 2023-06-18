@@ -1,0 +1,2 @@
+#include <Arduino.h>
+int16_t nbDelay(int16_t t_delay);

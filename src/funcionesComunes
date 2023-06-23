@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-int16_t nbDelay(int16_t t_delay){
+int16_t nbDelay(int16_t t_delay){         // funcion usada para el delay con retardo no bloqueantes
    int16_t t_base= 1;                     // tiempo de base un milisegundo
    static int16_t count =0;
    int16_t n_time= t_delay/t_base;
@@ -9,7 +9,7 @@ int16_t nbDelay(int16_t t_delay){
     return 1;
    } else {
       delay(t_base);
-      count++;
+      count++;                            // incrementa el contdor hasta que se cumpla la condicion
       return 0;
    }
 }

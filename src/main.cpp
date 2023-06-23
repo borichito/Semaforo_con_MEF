@@ -27,6 +27,6 @@ control_Leds cleds = {led_arreglo,pulsantes,len};  // uso de la estructura
 modoInit();                                        // iniciara em mod normal
 fsmButtonInit ();                                  // iniciara el boton alzado
 while (1){
-mod(cleds);
+mod(cleds);                                         // funcion para el control general del semaforo
 }
 }

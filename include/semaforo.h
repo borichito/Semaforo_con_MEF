@@ -6,5 +6,5 @@ typedef struct  {                                                               
   int16_t len;                                                                                          // long de los leds
   }control_Leds;
 
-void mod(control_Leds cleds);
-void modoInit();
+void mod(control_Leds cleds);                                                                          // funcion que se encarga del modo ya sea modo normal, alerta o descompuesto
+void modoInit();                                                                                       // funcion que toma como inicio el programa y sera el modo normal

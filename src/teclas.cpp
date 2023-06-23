@@ -50,18 +50,6 @@ contadorp2 = contadorp2 +1;
 if (contadorp2>3){
   contadorp2 =1;
   }
-/*if (contadorp2 == 1){
-  Serial.println("tomo el valor de normal");  
-}
-
-if (contadorp2 == 2){
-   Serial.println("tomo el valor de desc");  
-}
-if (contadorp2 == 3){
-   Serial.println("tomo el valor de alarma");  
-  //modo = alarma;
-}
-Serial.println(contadorp2);  */
 }
 
 
